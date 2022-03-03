@@ -1,0 +1,37 @@
+.btn-grad {
+    background-color: #8d7e1b;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 4px 6px;
+    text-align: center;
+    transition: 200ms;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 12px;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-grad:not(:disabled):hover,
+.btn-grad:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.btn-grad:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color: #3b3935;
+}

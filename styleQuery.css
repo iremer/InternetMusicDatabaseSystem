@@ -1,0 +1,26 @@
+a:link {
+    color: #C3B024;
+    background-color: transparent;
+    text-decoration: none;
+}  
+a:visited {
+    color: #C3B024;
+    background-color: transparent;
+    text-decoration: none
+}
+a:hover {
+    color: rgb(206, 164, 85);
+    background-color: transparent;
+    text-decoration: underline
+}
+a:active {
+    color: #C3B024;
+    background-color: transparent;
+    text-decoration: underline
+}
+.favoriteHover a:hover {
+    opacity: .5;
+}
+.favoriteHover a:visited {
+    opacity: .5;
+}
